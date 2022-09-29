@@ -1,0 +1,27 @@
+body {
+    background-color: #121212;
+}
+div.su {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}  
+h1 {
+    font-size: 60px;
+    font-family: Monospace;
+    font-weight: bold;
+    color: #fff;
+}
+p {
+    font-family: Monospace;
+    font-size: 18px;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    font-family: Monospace;
+}
