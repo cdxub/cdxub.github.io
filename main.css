@@ -1,6 +1,14 @@
 body {
     background-color: #000;
 }
+@font-face {
+    font-family: 'vcr_osd_monoregular';
+    src: url('vcr_osd_mono_1.001-webfont.woff2') format('woff2'),
+         url('vcr_osd_mono_1.001-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 div.su {
   color: white;
   padding: 15px;
@@ -17,11 +25,6 @@ h1.l {
     margin-left: 4px;
     color: #fff;
 }
-#e {
-    font-family: Monospace;
-    font-size: 8px;
-    color: #fff
-}
 h1.lm {
     font-family: Monospace; 
     margin: auto;
@@ -34,7 +37,7 @@ h1.hd {
     font-family: Monospace, Arial; 
     margin: auto;
     margin-left: 4px;
-    font-size: 17px;
+    font-size: 16px;
     color: #fff;
 }
 table.banner {
