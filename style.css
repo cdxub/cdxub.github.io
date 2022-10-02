@@ -1,0 +1,73 @@
+div.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}  
+h1 {
+    font-family: Monospace;
+    margin: auto;
+    margin-inline: 3px;
+    color: #fff;
+}
+h2, h3, h4, h5, h6, p {
+    font-family: Monospace;
+    margin-inline: 5px;
+    color: #fff;
+    display: inline;
+    position: static;
+}
+p {
+    font-size: 9px;
+}
+#r1 {
+    border-radius: 8px;
+    background-image: url(third.png);
+    background-position: center;
+    width:88px;
+    height:88px;
+}
+#r2 {
+    border-radius: 8px;
+    background-image: url(second.png);
+    background-position: center;
+    width:88px;
+    height:88px;
+}
+#r3 {
+    border-radius: 8px;
+    background-image: url(first.png);
+    background-position: center;
+    width:88px;
+    height:88px;
+}
+#s {
+    border-radius: 8px;
+    width: 88px;
+    height: 88px;
+}
+#tmain {
+    width: 280px;
+}
+img.avatar {
+    border-radius: 35px;
+    width: 60px;
+}
+#header {
+    width: 100%;
+    background-color: #121212;
+    border-radius: 5px;
+    background-image: url(header2.gif);
+    background-position-y: center;
+}
+#mainer {
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #121212;
+}
+body {
+    background: #000;
+}
