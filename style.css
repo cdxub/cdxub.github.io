@@ -21,6 +21,7 @@ h2, h3, h4, h5, h6, p {
 }
 p {
     font-size: 9px;
+    margin-inline: 6px;
 }
 #r1 {
     border-radius: 8px;
@@ -49,7 +50,7 @@ p {
     height: 88px;
 }
 #tmain {
-    width: 280px;
+    width: 290px;
 }
 img.avatar {
     border-radius: 35px;
