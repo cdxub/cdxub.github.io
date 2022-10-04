@@ -12,6 +12,10 @@ h1 {
     margin-inline: 3px;
     color: #fff;
 }
+a {
+    font-family: Monospace;
+    margin-inline: 3px;
+}
 h2, h3, h4, h5, h6, p {
     font-family: Monospace;
     margin-inline: 5px;
